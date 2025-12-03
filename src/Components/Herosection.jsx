@@ -7,7 +7,7 @@ function Herosection() {
   return (
     <div
       id="home"
-      className="flex flex-col-reverse md:flex-row justify-between items-center px-6 md:px-16 py-10 md:py-0 w-full min-h-screen overflow-hidden"
+      className="flex flex-col-reverse md:flex-row justify-between h-screen items-center px-6 md:px-16 py-10 md:py-0 w-full min-h-screen overflow-hidden"
     >
       {/* LEFT SECTION */}
       <div className="mt-10 md:mt-0 text-center md:text-left">
@@ -57,14 +57,14 @@ function Herosection() {
       </div>
 
       {/* RIGHT SECTION  (IMAGE + BACKGROUND SHAPE) */}
-      <div className="relative flex justify-center items-center w-full md:w-1/2 mb-6 md:mb-0">
+      <div className="relative  flex justify-center w-full md:w-1/2 h-1/2 mb-6 md:mb-0">
         {/* Skewed background shape */}
         <div className="absolute bg-black h-[70%] md:h-[90%] w-[80%] md:w-[90%] -skew-x-12 rounded-lg"></div>
 
         {/* Profile Image */}
         <img
-          className="relative z-10 w-52 sm:w-72 md:w-96 lg:w-[450px] object-contain"
-          src="/profile.png"
+          className="absolute bottom-20 z-10 w-52 sm:w-72 md:w-80  lg:w-[450px] object-contain"
+          src="/op.png"
           alt="ashish"
         />
       </div>
