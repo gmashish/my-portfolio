@@ -7,15 +7,15 @@ function Herosection() {
   return (
     <div
       id="home"
-      className="flex flex-col-reverse md:flex-row justify-between h-screen items-center px-6 md:px-16 py-10 md:py-0 w-full min-h-screen overflow-hidden"
+      className="flex flex-col-reverse md:flex-row justify-between items-center px-6 sm:px-10 md:px-16 lg:px-24 py-10 w-full min-h-screen"
     >
       {/* LEFT SECTION */}
-      <div className="mt-10 md:mt-0 text-center md:text-left">
+      <div className="mt-10 md:mt-0 text-center md:text-left flex-1">
         <p className="font-serif font-bold text-2xl sm:text-3xl">
           Hi, I am
         </p>
 
-        <p className="font-[montserrat] font-bold mt-5 text-3xl sm:text-4xl lg:text-5xl">
+        <p className="font-[montserrat] font-bold mt-4 text-3xl sm:text-4xl lg:text-5xl">
           Ashish G.M
         </p>
 
@@ -24,46 +24,52 @@ function Herosection() {
         </h1>
 
         {/* SOCIAL ICONS */}
-        <div className="flex justify-center md:justify-start gap-5 mt-4 py-4">
-          <Link
-            to="https://www.facebook.com/ashish.gm.376"
-            className="text-2xl sm:text-3xl bg-[#D7D7D7] p-2 rounded hover:bg-red-500 hover:text-white transition-all"
+        <div className="flex justify-center md:justify-start gap-5 mt-5 py-4">
+          <a
+            href="https://www.facebook.com/ashish.gm.376"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-2xl sm:text-3xl bg-[#D7D7D7] p-3 rounded-full hover:bg-red-500 hover:text-white transition-all"
           >
             <FaFacebook />
-          </Link>
+          </a>
 
-          <Link
-            to="https://github.com/gmashish"
-            className="text-2xl sm:text-3xl bg-[#D7D7D7] p-2 rounded hover:bg-red-500 hover:text-white transition-all"
+          <a
+            href="https://github.com/gmashish"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-2xl sm:text-3xl bg-[#D7D7D7] p-3 rounded-full hover:bg-red-500 hover:text-white transition-all"
           >
             <FaGithub />
-          </Link>
+          </a>
 
-          <Link
-            to="https://www.linkedin.com/in/ashish-gm-1a170a29a/"
-            className="text-2xl sm:text-3xl bg-[#D7D7D7] p-2 rounded hover:bg-red-500 hover:text-white transition-all"
+          <a
+            href="https://www.linkedin.com/in/ashish-gm-1a170a29a/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-2xl sm:text-3xl bg-[#D7D7D7] p-3 rounded-full hover:bg-red-500 hover:text-white transition-all"
           >
             <AiFillLinkedin />
-          </Link>
+          </a>
         </div>
 
         {/* CALL BUTTON */}
         <a
           href="tel:+9779748813503"
-          className="inline-flex items-center gap-2 px-4 py-2 mt-3 font-[montserrat] bg-black text-white rounded hover:bg-red-500 transition-all"
+          className="inline-flex items-center gap-2 px-5 py-3 mt-3 font-[montserrat] bg-black text-white rounded-md hover:bg-red-500 transition-all"
         >
           📞 Call me
         </a>
       </div>
 
-      {/* RIGHT SECTION  (IMAGE + BACKGROUND SHAPE) */}
-      <div className="relative  flex justify-center w-full md:w-1/2 h-1/2 mb-6 md:mb-0">
-        {/* Skewed background shape */}
-        <div className="absolute bg-black h-[70%] md:h-[90%] w-[80%] md:w-[90%] -skew-x-12 rounded-lg"></div>
+      {/* RIGHT SECTION - IMAGE + BACKGROUND */}
+      <div className="relative flex justify-center items-center w-full md:w-1/2 h-[350px] sm:h-[420px] md:h-[500px] lg:h-[600px]">
+        {/* Background Shape */}
+        <div className="absolute bg-black h-[65%] sm:h-[75%] md:h-[85%] w-[70%] sm:w-[75%] md:w-[85%] -skew-x-12 rounded-lg"></div>
 
         {/* Profile Image */}
         <img
-          className="absolute bottom-20 z-10 w-52 sm:w-72 md:w-80  lg:w-[450px] object-contain"
+          className="absolute bottom-0 z-10 w-52 sm:w-72 md:w-80 lg:w-[430px] object-contain"
           src="/op.png"
           alt="ashish"
         />
