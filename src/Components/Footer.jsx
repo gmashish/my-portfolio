@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="border-2 bg-black font-[montserrat] mt-10 py-3 text-white">
       <p className="text-center">
-        {year} &copy; all rights reserved. Develope by Ashish G.M
+        {year} &copy; all rights reserved. Developed by Ashish G.M
       </p>
     </div>
   );

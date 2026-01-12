@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Project() {
   const [activeState, setActiveState] = React.useState("All");
@@ -51,16 +51,16 @@ function Project() {
           <img src="/project1.png" alt="project" />
           <img src="/project2.png" alt="project" />
           <img src="/project3.png" alt="project" />
-          <img src="/project4.png" alt="project" />
-          <img src="/project5.png" alt="project" />
-          <img src="/project6.png" alt="project" />
+          <video src="/videoediting.mp4" controls ></video>
+          <video src="/uiux.mp4" controls ></video>
+          <video src="/devops.mp4" controls ></video>
         </div>
       )}
 
       {/* CODES */}
       {activeState === "Codes" && (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 py-5">
-          <img src="/project1.png" alt="project" />
+         <Link to="/https://gmashish.vercel.app" target="_blank"><img src="/portfolio.png" alt="portfolio" /></Link>
           <img src="/project2.png" alt="project" />
           <img src="/project3.png" alt="project" />
         </div>
@@ -69,9 +69,9 @@ function Project() {
       {/* VIDEO */}
       {activeState === "Video" && (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 py-5">
-          <img src="/project1.png" alt="project" />
-          <img src="/project2.png" alt="project" />
-          <img src="/project3.png" alt="project" />
+          <video src="/videoediting.mp4" controls autoPlay></video>
+          <video src="/uiux.mp4" controls autoPlay></video>
+          <video src="/devops.mp4" controls autoPlay></video>
         </div>
       )}
     </div>
