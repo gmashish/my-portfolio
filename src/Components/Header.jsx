@@ -6,7 +6,7 @@ function Header() {
     { title: "Home", label: "home" },
     { title: "About", label: "about" },
     { title: "Skills", label: "skill" },
-    { title: "Portfolio", label: "portfolio" },
+    { title: "Project", label: "project" },
     { title: "Contact", label: "contact" }
   ];
 
