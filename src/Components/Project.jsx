@@ -5,7 +5,7 @@ function Project() {
   const [activeState, setActiveState] = React.useState("All");
 
   return (
-    <div id="portfolio" className="px-4 sm:px-8 md:px-16">
+    <div id="project" className="px-4 sm:px-8 md:px-16">
       {/* Title */}
       <div className="flex justify-center">
         <h1 className="title relative border-2 hover:text-white mt-6 px-5 py-3 font-bold inline text-2xl sm:text-3xl uppercase font-[montserrat] tracking-widest">
