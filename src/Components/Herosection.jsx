@@ -69,7 +69,7 @@ function Herosection() {
 
         {/* Profile Image */}
         <img
-          className="absolute bottom-0 z-10 w-52 sm:w-72 md:w-80 lg:w-[430px] object-contain"
+          className="absolute drop-shadow-amber-200 drop-shadow-xl bottom-0 z-10 w-52 sm:w-72 md:w-80 lg:w-[430px] object-contain"
           src="/op.png"
           alt="ashish"
         />

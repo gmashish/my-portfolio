@@ -16,7 +16,7 @@ function Header() {
     <header>
       {/* Header Bar */}
       <div className="bg-black text-white flex justify-between items-center h-16 px-6 md:px-14">
-        <img src="/logos.svg" alt="logo" className="h-10 md:h-16 mt-2 md:mt-6" />
+        <img src="/mylogo.png" alt="logo" className="h-10 drop-shadow drop-shadow-red-500" />
 
         {/* Desktop Navigation */}
         <nav className="hidden md:block">
@@ -51,7 +51,7 @@ function Header() {
         }`}
       >
         <div className="flex justify-between items-center p-6 border-b border-white/10">
-          <img src="/logos.svg" alt="logo" className="h-10" />
+          <img src="/mylogo.png" alt="logo" className="h-10" />
           <button aria-label="Close navigation" onClick={() => setMobileOpen(false)}>
             <FaTimes size={22} />
           </button>
