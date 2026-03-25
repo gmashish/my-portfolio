@@ -8,7 +8,7 @@ function Project() {
     <div id="project" className="px-4 sm:px-8 md:px-16">
       {/* Title */}
       <div className="flex justify-center">
-        <h1 className="title relative border-2 hover:text-white mt-6 px-5 py-3 font-bold inline text-2xl sm:text-3xl uppercase font-[montserrat] tracking-widest">
+        <h1 className="title relative border-2 hover:text-white mt-18 px-5 py-3  font-bold inline text-2xl sm:text-3xl uppercase font-[montserrat] tracking-widest">
           Projects
         </h1>
       </div>
@@ -48,6 +48,9 @@ function Project() {
       {/* ALL PROJECTS */}
       {activeState === "All" && (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 py-5">
+          <Link to="/https://gmashish.vercel.app" target="_blank">
+            <img src="/portfolio.png" alt="portfolio" />
+          </Link>
           <img src="/project1.png" alt="project" />
           <img src="/project2.png" alt="project" />
           <img src="/project3.png" alt="project" />
@@ -60,9 +63,9 @@ function Project() {
       {/* CODES */}
       {activeState === "Codes" && (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 py-5">
-         <Link to="/https://gmashish.vercel.app" target="_blank"><img src="/portfolio.png" alt="portfolio" /></Link>
-          <img src="/project2.png" alt="project" />
-          <img src="/project3.png" alt="project" />
+          <Link to="/https://gmashish.vercel.app" target="_blank">
+            <img src="/portfolio.png" alt="portfolio" />
+          </Link>
         </div>
       )}
 
@@ -72,6 +75,7 @@ function Project() {
           <video src="/videoediting.mp4" controls autoPlay></video>
           <video src="/uiux.mp4" controls autoPlay></video>
           <video src="/devops.mp4" controls autoPlay></video>
+          <video src="/assignment.mp4" controls autoPlay></video>
         </div>
       )}
     </div>

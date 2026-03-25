@@ -18,11 +18,7 @@ function Skill() {
         <h1 className="text-xl sm:text-2xl font-[montserrat]">Using now:</h1>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 mt-10 place-items-center">
-          <img className="h-16 sm:h-20 md:h-24" src="/html.png" alt="HTML Logo" />
-          <img className="h-16 sm:h-20 md:h-24" src="/CSS.png" alt="css logo" />
-          <img className="h-16 sm:h-20 md:h-24" src="/js.png" alt="js logo" />
-          <img className="h-16 sm:h-20 md:h-24" src="/react.png" alt="React logo" />
-          <img className="h-16 sm:h-20 md:h-24" src="/GIT.png" alt="Git logo" />
+          <img className="h-16 sm:h-20 md:h-24" src="/ae.png" alt="After Effects logo" />
           <img className="h-16 sm:h-20 md:h-24" src="/davinci.png" alt="Davinci logo" />
         </div>
       </div>
@@ -31,10 +27,10 @@ function Skill() {
       <div className="mt-16">
         <h1 className="text-xl sm:text-2xl font-[montserrat]">Learning:</h1>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-10 mt-10 place-items-center">
-          <img className="h-16 sm:h-20 md:h-24" src="/mongodb.png" alt="MongoDB Logo" />
-          <img className="h-16 sm:h-20 md:h-24" src="/nodejs.png" alt="Node.js logo" />
-          <img className="h-16 sm:h-20 md:h-24" src="/sql.png" alt="SQL logo" />
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-5 mt-10 place-items-center">
+          <img className="h-16 sm:h-20 md:h-24" src="/blender.png" alt="Blender logo" />
+          <img className="h-16 sm:h-20 md:h-24" src="/ai.png" alt="Ai logo" />
+          <img className="h-16 sm:h-20 md:h-24" src="/ps.png" alt="Photoshop logo" />
         </div>
       </div>
     </div>
