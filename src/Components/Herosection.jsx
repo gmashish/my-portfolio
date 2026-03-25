@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaFacebook, FaGithub } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
+import { FaTiktok } from "react-icons/fa";
 
 function Herosection() {
   return (
@@ -50,6 +51,14 @@ function Herosection() {
             className="text-2xl sm:text-3xl bg-[#D7D7D7] p-3 rounded-full hover:bg-red-500 hover:text-white transition-all"
           >
             <AiFillLinkedin />
+          </a>
+          <a
+            href="https://www.tiktok.com/@ashish_ae?is_from_webapp=1&sender_device=pc"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-2xl sm:text-3xl bg-[#D7D7D7] p-3 rounded-full hover:bg-red-500 hover:text-white transition-all"
+          >
+            <FaTiktok />
           </a>
         </div>
 

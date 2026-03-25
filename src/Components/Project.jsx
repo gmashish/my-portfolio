@@ -2,7 +2,7 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
 function Project() {
-  const [activeState, setActiveState] = React.useState("All");
+  const [activeState, setActiveState] = React.useState("Video");
 
   return (
     <div id="project" className="px-4 sm:px-8 md:px-16">
@@ -16,23 +16,7 @@ function Project() {
       {/* Filter Buttons */}
       <div className="flex justify-center items-center py-5 bg-black mt-6">
         <ul className="flex flex-wrap justify-center px-5 py-3 text-white items-center gap-5 sm:gap-10 text-lg sm:text-xl uppercase font-[montserrat]">
-          <NavLink
-            className={`cursor-pointer ${
-              activeState === "All" ? "border-b-2 border-gray-400" : ""
-            }`}
-            onClick={() => setActiveState("All")}
-          >
-            All
-          </NavLink>
-
-          <NavLink
-            className={`cursor-pointer ${
-              activeState === "Codes" ? "border-b-2 border-gray-400" : ""
-            }`}
-            onClick={() => setActiveState("Codes")}
-          >
-            Codes
-          </NavLink>
+          
 
           <li
             className={`cursor-pointer ${
@@ -45,38 +29,17 @@ function Project() {
         </ul>
       </div>
 
-      {/* ALL PROJECTS */}
-      {activeState === "All" && (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 py-5">
-          <Link to="/https://gmashish.vercel.app" target="_blank">
-            <img src="/portfolio.png" alt="portfolio" />
-          </Link>
-          <img src="/project1.png" alt="project" />
-          <img src="/project2.png" alt="project" />
-          <img src="/project3.png" alt="project" />
-          <video src="/videoediting.mp4" controls autoPlay></video>
-          <video src="/uiux.mp4" controls autoPlay></video>
-          <video src="/devops.mp4" controls autoPlay></video>
-        </div>
-      )}
+      
 
-      {/* CODES */}
-      {activeState === "Codes" && (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 py-5">
-          <Link to="/https://gmashish.vercel.app" target="_blank">
-            <img src="/portfolio.png" alt="portfolio" />
-          </Link>
-        </div>
-      )}
 
       {/* VIDEO */}
       {activeState === "Video" && (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 py-5">
-          <video src="/videoediting.mp4" controls autoPlay></video>
-          <video src="/uiux.mp4" controls autoPlay></video>
-          <video src="/devops.mp4" controls autoPlay></video>
-          <video src="/assignment.mp4" controls autoPlay></video>
-          <video src="/macbook.mp4" controls autoPlay></video>
+          <video src="/videoediting.mp4" controls ></video>
+          <video src="/uiux.mp4" controls ></video>
+          <video src="/devops.mp4" controls ></video>
+          <video src="/assignment.mp4" controls ></video>
+          <video src="/macbook.mp4" controls ></video>
 
         </div>
       )}

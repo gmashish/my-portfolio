@@ -1,4 +1,5 @@
 import React from "react";
+import { FaArrowUp } from "react-icons/fa6";
 
 function ScrollToTop() {
   const scrollToTop = () => {
@@ -10,10 +11,10 @@ function ScrollToTop() {
   return (
     <div>
       <button
-        className="fixed text-white z-50 px-3  text-xl cursor-pointer font-medium bottom-[78px] bg-black rounded-2xl hover:bg-red-500  right-2"
+        className="fixed text-white z-50 p-3  text-xl cursor-pointer font-medium bottom-[78px] bg-black rounded-full transition-all ease-in duration-100 hover:bg-red-500  right-2"
         onClick={scrollToTop}
       >
-        Back to top
+      <FaArrowUp />
       </button>
     </div>
   );

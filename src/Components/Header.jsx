@@ -36,7 +36,7 @@ function Header() {
 
           ${
             scrolled
-              ? "bg-white/10 border-white shadow-lg shadow-black/30"
+              ? "bg-black/10 border-white shadow-lg shadow-black/30"
               : "bg-white/5 border-white/20"
           }
         `}
