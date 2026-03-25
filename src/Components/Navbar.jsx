@@ -38,7 +38,7 @@ function Navbar() {
     <header
       className={`fixed w-full py-2 max-w-7xl pl-6 pr-2 left-1/2 -translate-x-1/2 z-50 transition-all rounded-full duration-500 ${
         scrolled
-          ? "bg-gray-400/60 backdrop-blur-md top-5 border border-white/20 shadow-2xl"
+          ? "bg-gray-900/60 backdrop-blur-md top-5 border border-white/20 shadow-2xl"
           : "bg-transparent top-0 border-none"
       }`}
     >
