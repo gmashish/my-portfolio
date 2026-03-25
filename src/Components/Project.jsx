@@ -76,6 +76,8 @@ function Project() {
           <video src="/uiux.mp4" controls autoPlay></video>
           <video src="/devops.mp4" controls autoPlay></video>
           <video src="/assignment.mp4" controls autoPlay></video>
+          <video src="/macbook.mp4" controls autoPlay></video>
+
         </div>
       )}
     </div>
