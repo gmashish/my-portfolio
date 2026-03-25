@@ -13,15 +13,15 @@ function Herosection() {
       {/* LEFT SECTION */}
       <div className="mt-10 md:mt-0 text-center md:text-left flex-1">
         <p className="font-serif font-bold text-2xl sm:text-3xl">
-          Hi, I am
+         Hi, I am
         </p>
 
         <p className="font-[montserrat] font-bold mt-4 text-3xl sm:text-4xl lg:text-5xl">
           Ashish G.M
         </p>
 
-        <h1 className="text-gray-500 uppercase font-extrabold font-[montserrat] mt-3 text-sm sm:text-base lg:text-lg">
-          I'm a developer / Video editor
+        <h1 className="text-gray-500 uppercase font-extrabold font-[montserrat] mt-3 text-xs">
+          I'm a Video editor| Motion graphics artist
         </h1>
 
         {/* SOCIAL ICONS */}
