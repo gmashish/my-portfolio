@@ -34,21 +34,18 @@ function Project() {
 
       {/* VIDEO */}
       {activeState === "Video" && (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 py-5">
-          <video src="/videoediting.mp4" controls ></video>
-          <video src="/uiux.mp4" controls ></video>
-          <video src="/devops.mp4" controls ></video>
-          <video src="/assignment.mp4" controls ></video>
-          <video src="/macbook.mp4" controls ></video>
-          <video src="/glass.mp4" controls ></video>
-          <video src="/shop.mp4" controls ></video>
-          <video src="/windows.mp4" controls ></video>
-          <video src="/garamgear.mp4" controls ></video> 
-          
-
-
-
-        </div>
+        <div className="columns-1 sm:columns-2 md:columns-3 gap-4 py-5 space-y-4">
+  <video className="w-full rounded-2xl" src="/videoediting.mp4" controls></video>
+  <video className="w-full rounded-2xl" src="/uiux.mp4" controls></video>
+  <video className="w-full rounded-2xl" src="/devops.mp4" controls></video>
+  <video className="w-full rounded-2xl" src="/assignment.mp4" controls></video>
+  <video className="w-full rounded-2xl" src="/macbook.mp4" controls></video>
+  <video className="w-full rounded-2xl" src="/glass.mp4" controls></video>
+  <video className="w-full rounded-2xl" src="/shop.mp4" controls></video>
+  <video className="w-full rounded-2xl" src="/windows.mp4" controls></video>
+  <video className="w-full rounded-2xl" src="/garamgear.mp4" controls></video>
+  
+</div>
       )}
     </div>
   );
