@@ -40,6 +40,13 @@ function Project() {
           <video src="/devops.mp4" controls ></video>
           <video src="/assignment.mp4" controls ></video>
           <video src="/macbook.mp4" controls ></video>
+          <video src="/glass.mp4" controls ></video>
+          <video src="/shop.mp4" controls ></video>
+          <video src="/windows.mp4" controls ></video>
+          <video src="/garamgear.mp4" controls ></video> 
+          
+
+
 
         </div>
       )}

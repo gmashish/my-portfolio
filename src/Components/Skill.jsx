@@ -19,7 +19,7 @@ function Skill() {
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 mt-10 place-items-center">
           <img className="h-16 sm:h-20 md:h-24" src="/ae.png" alt="After Effects logo" />
-          <img className="h-16 sm:h-20 md:h-24" src="/davinci.png" alt="Davinci logo" />
+          <img className="h-16 sm:h-20 md:h-24" src="/davinci12.png" alt="Davinci Resolve logo" />
         </div>
       </div>
 
