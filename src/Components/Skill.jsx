@@ -27,7 +27,7 @@ function Skill() {
       <div className="mt-16">
         <h1 className="text-xl sm:text-2xl font-[montserrat]">Learning:</h1>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-5 mt-10 place-items-center">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 mt-10 place-items-center">
           <img className="h-16 sm:h-20 md:h-24" src="/blender.png" alt="Blender logo" />
           <img className="h-16 sm:h-20 md:h-24" src="/ai.png" alt="Ai logo" />
           <img className="h-16 sm:h-20 md:h-24" src="/ps.png" alt="Photoshop logo" />

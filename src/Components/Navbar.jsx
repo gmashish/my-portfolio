@@ -70,12 +70,12 @@ function Navbar() {
       />
 
       <header
-        className={`fixed w-full max-w-7xl pl-6 pr-2 left-1/2 -translate-x-1/2 z-40 transition-all duration-500 rounded-full
-        ${showNav ? "top-5" : "-top-24"}
+        className={`w-full max-w-7xl pl-6 pr-2 left-1/2 -translate-x-1/2 z-40 transition-all duration-500 rounded-full
+        ${showNav ? "top-5" : ""}
         ${
           scrolled
-            ? "bg-gray-900/60 backdrop-blur-md border border-white/20 shadow-2xl py-2"
-            : "bg-transparent border-none py-4"
+            ? "bg-white/20 backdrop-blur-md border border-white/20 shadow-2xl py-2"
+            : "bg-white/10 border-none py-2"
         }`}
       >
         <div className="flex items-center justify-between">
@@ -101,9 +101,9 @@ function Navbar() {
                   className={`relative px-4 py-2 text-sm font-medium transition-colors duration-300 flex items-center gap-1 rounded-full 
                   ${
                     isHovered || isActive
-                      ? "text-white"
+                      ? "text-red-600 scale-120 transition-all ease-in duration-300"
                       : scrolled
-                      ? "text-white/80"
+                      ? "text-red-400"
                       : "text-black/60"
                   }`}
                 >
@@ -152,7 +152,7 @@ function Navbar() {
                 className={`w-full text-left px-4 py-3 rounded-lg border transition
                 ${
                   activePath === item.label
-                    ? "bg-primary text-white"
+                    ? "bg-red-500 text-white"
                     : "bg-white/10 border-white/20 text-white hover:bg-white/20"
                 }`}
               >

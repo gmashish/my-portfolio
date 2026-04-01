@@ -44,6 +44,8 @@ function Project() {
   <video className="w-full rounded-2xl" src="/shop.mp4" controls></video>
   <video className="w-full rounded-2xl" src="/windows.mp4" controls></video>
   <video className="w-full rounded-2xl" src="/garamgear.mp4" controls></video>
+  <video className="w-full rounded-2xl" src="/bamboo3.mp4" controls></video>
+
   
 </div>
       )}
